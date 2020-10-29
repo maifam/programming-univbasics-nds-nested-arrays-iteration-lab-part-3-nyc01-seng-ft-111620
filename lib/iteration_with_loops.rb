@@ -5,5 +5,7 @@ def join_nested_strings(src)
   
   src.each do |subsrc|
     subsrc.each do |ele| 
-      if ele.include?("")
+      ele.delete(Integer)
+    end 
+  end 
 end
