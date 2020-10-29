@@ -3,6 +3,9 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   phrase = ""
   
+  row_idx = 0 
+  while row_idx < src.length do 
+    inner_row
   
   
   return phrase.join 
