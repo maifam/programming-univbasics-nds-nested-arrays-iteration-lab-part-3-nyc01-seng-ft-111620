@@ -5,11 +5,11 @@ def join_nested_strings(src)
   
   src.each do |subsrc|
     subsrc.each do |ele| 
-      ele.delete(Integer)
+      ele.class.delete(Integer)
       
       subsrc += 1 
     end 
-    
+  
     src += 1 
   end 
   phrase.join 
