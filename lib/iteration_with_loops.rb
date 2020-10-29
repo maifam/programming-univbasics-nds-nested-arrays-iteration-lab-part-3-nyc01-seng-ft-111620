@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while outer_row < src.length do 
     inner_idx = 0 
     while inner_idx < src[outer_row].length do 
-      if inner_idx == Integer 
+      phrase << 
     end 
   end 
   phrase.join 
