@@ -7,6 +7,6 @@ def join_nested_strings(src)
       phrase << ele if ele.class == String 
     end 
   end 
-  phrase.join("")
+  phrase.join(" ")
 end 
  
