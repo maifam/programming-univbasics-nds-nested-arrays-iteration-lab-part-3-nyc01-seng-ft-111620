@@ -3,15 +3,7 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   phrase = []
   
-  row_idx = 0 
-  while row_idx < src.length do 
-    inner_ele = 0 
-    while inner_ele < src[row_idx].length do 
-      
-    end 
-  phrase << words
-  
-  end 
-  
-  return phrase.join 
+  src.each do |subsrc|
+    subsrc.each do |ele| 
+      if ele.include?("")
 end
