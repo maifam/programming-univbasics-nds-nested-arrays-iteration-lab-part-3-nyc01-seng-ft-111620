@@ -10,5 +10,7 @@ def join_nested_strings(src)
       subsrc += 1 
     end 
     
+    src += 1 
   end 
+  phrase.join 
 end
