@@ -4,6 +4,9 @@ def join_nested_strings(src)
   
   src.each do |subsrc|
     subsrc.each do |ele|
+      phrase << ele if ele.class == String 
+    end 
   end 
-  phrase.join 
-end
+  phrase.join("")
+end 
+ 
